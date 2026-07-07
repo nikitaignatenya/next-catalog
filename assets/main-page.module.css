@@ -1,0 +1,31 @@
+.container {
+  padding: 236px 0px;
+  display: grid;
+  gap: 30px;
+  justify-self: center;
+  grid-template-columns: repeat(3, 288px);
+
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    .boardImage {
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    h3 {
+      margin-top: 18px;
+    }
+    .price {
+      display: flex;
+      margin-top: 5px;
+      gap: 13px;
+    }
+    .rating {
+      display: flex;
+      gap: 8px;
+      margin-top: 5px;
+    }
+  }
+}

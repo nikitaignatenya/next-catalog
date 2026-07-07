@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "@assets/main-page.module.css";
+import style from "@/assets/main-page.module.css";
 import MainHome from "@/components/MainHome";
 import { getPool } from "@/db";
 
